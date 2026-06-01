@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/google_search_console",
+  "title": "Google_search_console",
+  "description": "Google Search Console MCP Pack",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/google_search_console",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-google_search_console",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/google_search_console/mcp"
+    }
+  ]
+}
