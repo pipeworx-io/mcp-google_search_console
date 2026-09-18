@@ -80,3 +80,7 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+This pack runs against a connected google_search_console account, so it needs a Pipeworx key: sign in at https://pipeworx.io/account, connect google_search_console, then call `POST https://gateway.pipeworx.io/v1/tools/gsc_list_sites` with `Authorization: Bearer <your Pipeworx key>`. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/gsc_list_sites`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
